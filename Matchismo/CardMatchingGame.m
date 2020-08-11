@@ -91,7 +91,7 @@ static NSString * NOT_MATCHED_FORMAT = @"%@ Don't match! %d penalty points."; //
         if(otherCard.isChosen && !otherCard.isMatched){
             [otherCards addObject:otherCard];
             if(![self.gameStringRep containsString:otherCard.contents]){//if the card is choosen it should be in the game string rep
-                 self.gameStringRep = [NSString stringWithFormat:@"%@%@" , [self description] ,otherCard.contents];
+                 self.gameStringRep = [NSString stringWithFormat:@"%@%@" , [self description] ,[otherCard description]];
             }
         }
     }

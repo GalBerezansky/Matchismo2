@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9754E52024DBD813002DC090 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 9754E51F24DBD813002DC090 /* PlayingCardDeck.m */; };
+		97B81F4A24E2CB43004FC0A2 /* SetCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B81F4924E2CB43004FC0A2 /* SetCard.m */; };
 		97DF012924DACFE7007E6E45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97DF012824DACFE7007E6E45 /* AppDelegate.m */; };
 		97DF012C24DACFE7007E6E45 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97DF012B24DACFE7007E6E45 /* SceneDelegate.m */; };
 		97DF012F24DACFE7007E6E45 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97DF012E24DACFE7007E6E45 /* ViewController.m */; };
@@ -24,6 +25,8 @@
 /* Begin PBXFileReference section */
 		9754E51E24DBD813002DC090 /* PlayingCardDeck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
 		9754E51F24DBD813002DC090 /* PlayingCardDeck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
+		97B81F4824E2CB43004FC0A2 /* SetCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetCard.h; sourceTree = "<group>"; };
+		97B81F4924E2CB43004FC0A2 /* SetCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetCard.m; sourceTree = "<group>"; };
 		97DF012424DACFE7007E6E45 /* Matchismo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matchismo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97DF012724DACFE7007E6E45 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		97DF012824DACFE7007E6E45 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -70,6 +73,8 @@
 				97DF014724DB126C007E6E45 /* Deck.m */,
 				9754E51E24DBD813002DC090 /* PlayingCardDeck.h */,
 				9754E51F24DBD813002DC090 /* PlayingCardDeck.m */,
+				97B81F4824E2CB43004FC0A2 /* SetCard.h */,
+				97B81F4924E2CB43004FC0A2 /* SetCard.m */,
 			);
 			name = Model;
 			path = /Users/gberezansky/Desktop/IOSDevBootcamp/Matchismo/Matchismo/Model;
@@ -185,6 +190,7 @@
 				9754E52024DBD813002DC090 /* PlayingCardDeck.m in Sources */,
 				97DF012F24DACFE7007E6E45 /* ViewController.m in Sources */,
 				97EC555F24DC26D8000A4BC6 /* CardMatchingGame.m in Sources */,
+				97B81F4A24E2CB43004FC0A2 /* SetCard.m in Sources */,
 				97DF015024DB185E007E6E45 /* PlayingCard.m in Sources */,
 				97DF012924DACFE7007E6E45 /* AppDelegate.m in Sources */,
 				97DF013A24DACFE9007E6E45 /* main.m in Sources */,
