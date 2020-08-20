@@ -466,21 +466,6 @@
             </objects>
             <point key="canvasLocation" x="140.57971014492756" y="124.55357142857142"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="ndy-ef-lxg">
-            <objects>
-                <viewController id="Y3L-Ej-d3X" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="98X-Lo-3DG">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="hcV-Hl-w2b"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="8A2-tp-VTW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="904" y="124"/>
-        </scene>
     </scenes>
     <resources>
         <image name="cardback" width="64" height="96"/>
